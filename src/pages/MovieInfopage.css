@@ -1,0 +1,68 @@
+.movieinfo{
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.movieinfo__container{
+    padding: 20px 0px;
+}
+
+.movieinfo__row{
+    margin: 0 80px;
+}
+
+.movieinfo__img{
+    margin-right: 80px;
+}
+
+.movieinfo__img > img{
+    width: 300px;
+    height: 433px;
+}
+
+.movieinfo__text > h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.movieinfo__info{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.movieinfo__info > p{
+    margin: 4px;
+}
+
+.movieinfo__text > h3{
+    margin-bottom: 4px;
+}
+
+.movieinfo__text > p{
+    line-height: 1.7em;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.movieinfo__button{
+    display: flex;
+    align-items: center;
+    font-size: 16px !important;
+    padding: 4px 20px 4px 8px;
+    background-color: crimson;
+    color: white;
+    border-radius: 4px;
+}
+
+.movieinfo__button .MuiSvgIcon-root{
+    font-size: 40px !important;
+}
+
+.movieinfo__recommended--list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieinfo__recommended > h1{
+    margin-bottom: 16px;
+}

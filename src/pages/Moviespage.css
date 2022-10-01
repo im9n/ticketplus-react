@@ -1,0 +1,55 @@
+.moviepage__movies{
+    flex: 1;
+}
+
+.moviepage__search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+    padding: 4px 4px 4px 24px;
+}
+
+.moviepage__search--input{
+    flex: 1
+}
+
+.moviepage__search--input > input{ 
+    width: 100%;
+    height: 80px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.moviepage__search--input > input::placeholder{ 
+    color: #fff;
+    font-weight: 300;
+}
+
+.moviepage__search--input > input:focus{ 
+ outline: none;
+ border: none;
+}
+
+.moviepage__search--button{
+    flex: 0.15
+}
+
+.moviepage__search--button > button{
+    background-color: transparent;
+    font-size: 40px !important;
+    border: 3px #fff solid;
+    border-radius: 8px;
+    outline: none;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button > .MuiSvgIcon-root{
+    font-size: 40px !important;
+    color: #fff;
+}
