@@ -18,6 +18,7 @@
 .movieinfo__img > img{
     width: 300px;
     height: 433px;
+    border-radius: 8px;
 }
 
 .movieinfo__text > h1{
@@ -65,4 +66,42 @@
 
 .movieinfo__recommended > h1{
     margin-bottom: 16px;
+}
+
+.skeleton{
+    background-color: rgb(228, 228, 228);
+    border-radius: 4px;
+}
+
+.skeleton__img{
+    width: 300px;
+    height: 433px;
+    margin-right: 80px;
+}
+
+.skeleton__title{
+height: 15%;
+width: 240px;
+margin-bottom: 20px;
+}
+
+.skeleton__text{
+    height: 20px;
+    width: 40px;
+}
+
+.skeleton__para{
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.skeleton__para--half{
+    width: 400px !important;
+}
+
+.skeleton__button{
+    margin-top: 32px;
+    width: 80px;
+    height: 40px;
 }

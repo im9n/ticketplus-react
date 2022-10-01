@@ -10,10 +10,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const location = useLocation()
-
-  useEffect(() => {
-    console.log(location.pathname === '/')
-  }, [location]);
   
   return (
     <div className="sidebar">

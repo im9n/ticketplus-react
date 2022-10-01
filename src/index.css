@@ -281,7 +281,7 @@ width: 100%
 }
 
 .movies__top {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -319,10 +319,6 @@ display: none;
 .movies__list--loading{
   font-size: 64px;
   color: crimson;
-  display: none !important;
-  position: absolute;
-  top: 24px;
-  right: 43%;
   animation: loading 1000ms infinite
 
 }

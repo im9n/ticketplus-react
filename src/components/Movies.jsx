@@ -16,12 +16,12 @@ const Movies = () => {
            <div className="movies__content">
              <div className="movies__list" >
                <i className="fa-solid fa-spinner movies__list--loading"></i>
-               <Movie image={Poster1} text="Guardians of the Galaxy Vol. 2"/>
-               <Movie image={Poster2} text="Avengers"/>
-               <Movie image={Poster3} text="Spider-Man: Homecoming"/>
-               <Movie image={Poster4} text="Minions: Rise of Gru"/>
-               <Movie image={Poster5} text='Spider-Man: Into the Spider-Verse'/>
-               <Movie image={Poster6} text='Nope'/>
+               <Movie key={} id={} image={Poster1} text="Guardians of the Galaxy Vol. 2"/>
+               <Movie key={} id={} image={Poster2} text="Avengers"/>
+               <Movie key={} id={} image={Poster3} text="Spider-Man: Homecoming"/>
+               <Movie key={} id={} image={Poster4} text="Minions: Rise of Gru"/>
+               <Movie key={} id={} image={Poster5} text='Spider-Man: Into the Spider-Verse'/>
+               <Movie key={} id={} image={Poster6} text='Nope'/>
              </div>
            </div>
          </div>
