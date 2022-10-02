@@ -84,7 +84,7 @@ const MovieInfopage = () => {
           <div className="movieinfo__recommended">
             <h1>Recommended Movies</h1>
             <div className="movieinfo__recommended--list">
-              <Movies />
+                  <Movies />
             </div>
           </div>
         </div>

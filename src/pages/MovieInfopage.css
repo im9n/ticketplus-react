@@ -5,11 +5,11 @@
 
 .movieinfo__container{
     padding: 20px 0px;
-    flex: 1;
+    width: 90%;
 }
 
 .movieinfo__row{
-    margin: 0 80px;
+    margin: 0 40px;
 }
 
 .movieinfo__img{
@@ -22,6 +22,7 @@
     border-radius: 8px;
 }
 
+
 .movieinfo__text > h1{
     font-size: 48px;
     margin-bottom: 8px;
@@ -30,6 +31,7 @@
 .movieinfo__info{
     display: flex;
     margin-bottom: 24px;
+    max-width: 100%;
 }
 
 .movieinfo__info > p{
@@ -62,7 +64,9 @@
 
 .movieinfo__recommended--list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .movieinfo__recommended > h1{
@@ -106,3 +110,101 @@ margin-bottom: 20px;
     width: 80px;
     height: 40px;
 }
+
+@media (max-width: 1200px){
+.movieinfo__text > p{
+    font-size: 13px;
+}
+
+.movieinfo__text > h1{
+    font-size: 32px;
+}
+
+.movieinfo__info{
+    font-size: 14px;
+}
+
+.movieinfo__img{
+    margin-right: 32px;
+}
+
+.movieinfo__button{
+    font-size: 12px;
+    padding-right: 14px;
+}
+
+.movieinfo__button > .MuiSvgIcon-root{
+    font-size: 28px !important
+}
+}
+
+@media (max-width: 1030px) {
+    .movieinfo__img > img{
+        height: 350px;
+        width: 240px;
+    }
+
+    .movieinfo__recommended > h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .movieinfo__text > p{
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+    }
+    
+    .movieinfo__info > p{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 774px){
+    .movieinfo{
+        flex-direction: column;
+    }
+
+    .movieinfo__img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-right: 0px;
+    }
+
+    .movieinfo__img > img{
+        height: 433px;
+        width: 300px;
+    }
+
+    .skeleton__img{
+        margin-right: 0px;
+    }
+
+    .skeleton__para{
+        width: 300px;
+    }
+
+    .skeleton__para--half{
+        width: 140px !important;
+    }
+
+}
+
+@media (max-width: 464px){
+    .movieinfo__img > img{
+        height: 300px;
+        width: 200px;
+    }
+
+    .movieinfo__text > h1{
+        font-size: 24px;
+    }
+
+    .movieinfo__text > p{
+        font-size: 12px;
+    }
+}
+
