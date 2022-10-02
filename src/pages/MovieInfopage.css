@@ -5,6 +5,7 @@
 
 .movieinfo__container{
     padding: 20px 0px;
+    flex: 1;
 }
 
 .movieinfo__row{
@@ -41,7 +42,7 @@
 
 .movieinfo__text > p{
     line-height: 1.7em;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     margin-bottom: 24px;
 }
 
