@@ -206,5 +206,15 @@ margin-bottom: 20px;
     .movieinfo__text > p{
         font-size: 12px;
     }
+
+    .skeleton__img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .skeleton__para{
+        width: 200px;
+        height: 20px;
+    }
 }
 

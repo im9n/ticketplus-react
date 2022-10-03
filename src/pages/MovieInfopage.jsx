@@ -22,6 +22,7 @@ const MovieInfopage = () => {
   }
 
   useEffect(() => {
+    setLoading(true)
     fetchMovie(id.id);
   }, [id]);
 

@@ -73,6 +73,7 @@ button > .MuiSvgIcon-root {
 .moviepage__img--wrapper > h1 {
   font-weight: 300;
   width: 100%;
+  text-align: center;
 }
 
 .moviepage__loading {
